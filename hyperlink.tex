@@ -1,8 +1,21 @@
 \documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage[normalem]{ulem}
 \usepackage{hyperref}
 
+% Configure hyperref to remove the default colorful boxes
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+
+% Create a custom command for blue underlined links
+% Usage: \bluehref{URL}{Text}
+\newcommand{\bluehref}[2]{\href{#1}{\textcolor{blue}{\uline{#2}}}}
+
 \begin{document}
-	
-	Click here to visit \href{https://www.google.com}{Google}.
-	
+
+This is \bluehref{https://www.duckduckgo.com}{Blue HyperLink}
+
 \end{document}

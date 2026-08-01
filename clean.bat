@@ -1,1 +1,1 @@
-DEL /F /Q *.aux *.toc *.lof *.lot *.log *.gz *.pdf
+DEL /F /Q *.aux *.toc *.lof *.lot *.log *.gz *.pdf *.out
