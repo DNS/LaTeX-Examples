@@ -1,0 +1,56 @@
+\documentclass{article}
+\begin{document}
+
+% Centered text using an environment
+\begin{center}
+CENTER
+\end{center}
+
+% Right-aligned text using an environment
+\begin{flushright} FLUSH RIGHT \end{flushright}
+
+% Left-aligned (ragged right) using an environment
+\begin{flushleft} FLUSH LEFT \end{flushleft}
+
+% Centered text using a declaration (no extra vertical space)
+{\centering CENTERING \par}
+
+% Right-aligned text using a declaration (no extra vertical space)
+{\raggedleft RAGGED LEFT \par}
+
+
+
+
+
+\noindent
+aaa \newline
+bbb \\
+ccc \\[2em]
+ddd \\[2cm]
+eee
+
+b
+b
+
+
+\raggedright
+    Text
+
+\raggedleft
+    Text
+
+\noindent
+
+
+This is the first paragraph.
+\vspace{1cm} This paragraph is now separated by one centimeter of vertical space.
+
+
+{\centering
+This specific block of text will be centered. \\
+Each line needs a break to stay centered. \par
+}
+
+
+
+\end{document}

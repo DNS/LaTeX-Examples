@@ -12,10 +12,14 @@
 
 % Create a custom command for blue underlined links
 % Usage: \bluehref{URL}{Text}
-\newcommand{\bluehref}[2]{\href{#1}{\textcolor{blue}{\uline{#2}}}}
+\newcommand{\bluehrefuline}[2]{\href{#1}{\textcolor{blue}{\uline{#2}}}}
+
+
 
 \begin{document}
 
-This is \bluehref{https://www.duckduckgo.com}{Blue HyperLink}
+Here is a \href{https://www.google.com}{hyperlink to Google} that is blue and has no underline.
+
+Here is a \bluehrefuline{https://www.duckduckgo.com}{hyperlink to DuckDuckGo} that is blue and has underline.
 
 \end{document}
